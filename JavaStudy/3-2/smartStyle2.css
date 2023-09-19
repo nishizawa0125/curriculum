@@ -1,0 +1,66 @@
+/*タブレット用*/
+@media screen and (max-width: 767px) {
+    .wrapper {
+        width: 300px;
+    }
+    .header {
+        width: 300px;
+    }
+    .contents {
+        float: none;
+        width: 300px;
+    }    
+    .left { /*緑*/
+        width: 100px;
+    }
+    .center-right-upper { /*黄*/
+        width: 125px;
+    }
+    .center-right-lower { /*青*/
+        width: 125px;
+    }
+    .center-upper-right { /*ピンク*/
+        width: 75px;
+    }
+    .center-lower { /*赤*/
+        width: 200px;
+    }
+    .footer { /*オレンジ*/
+        width: 300px;
+    }
+}
+    
+
+/*スマホ用*/
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 150px;
+    }
+    .header {
+        width: 150px;
+    }
+    .contents {
+        float: none;
+        width: 150px;
+    }    
+    .left { /*緑*/
+        width: 150px;
+        height: 100px;
+    }
+    .center-right-upper { /*黄*/
+        width: 150px;
+    }
+    .center-right-lower { /*青*/
+        width: 150px;
+    }
+    .center-upper-right { /*ピンク*/
+        width: 150px;
+        height: 100px;
+    }
+    .center-lower { /*赤*/
+        width: 150px;
+    }
+    .footer { /*オレンジ*/
+        width: 150px;
+    }
+}
