@@ -1,10 +1,10 @@
 package check;
 //スーパークラス
 public class Pet {
-    //フィールド
+    //フィールド変数
     private String name;
     private String masterName;
-   
+ // コンストラクタ
     public Pet(String name, String masterName) {
         this.name = name;
         this.masterName = masterName;
