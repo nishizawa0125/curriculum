@@ -11,8 +11,5 @@ import com.example.demo.entity.UserEntity;
 @Repository
 //1行追加
 public interface UserRepository extends JpaRepository<UserEntity,Long > {
-}
-   
 
-//Controllerクラスの作成
-//フロントエンドとバックエンドの入出力の管理を行うControllerクラスを作成します。
+}

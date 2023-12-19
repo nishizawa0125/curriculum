@@ -51,11 +51,13 @@ public class UserEntity  {
 	 */
 	//2行追加
 	@Column(name = "update_date")
-	private Date  updatedate;
+	private Date  updateDate;
 
 	/**
 	 * 登録日時
 	 */
 	@Column(name = "create_date")
 	private Date createDate;
+	
+	
 }
